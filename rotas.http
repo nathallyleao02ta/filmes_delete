@@ -1,0 +1,28 @@
+GET http://localhost:3000/all-movies
+
+###
+POST http://localhost:3000/create-movie
+Content-Type: application/json
+
+{
+    "title": "Velozes e furiosos 8",
+    "age": "1956",
+    "gender": "ação",
+    "ageLimit": 18,
+    "duration": 149
+}
+
+###
+DELETE http://localhost:3000/delete-movie/6
+
+###
+PUT http://localhost:3000/edit-movie/1
+Content-Type: application/json
+
+{
+    "title": "Minions",
+    "age": "1998",
+    "gender": "animação",
+    "ageLimit": 0,
+    "duration": 145
+}
