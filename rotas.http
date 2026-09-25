@@ -5,7 +5,7 @@ POST http://localhost:3000/create-movie
 Content-Type: application/json
 
 {
-    "title": "Velozes e furiosos 8",
+    "title": "Velozes e furiosos 9",
     "age": "1956",
     "gender": "ação",
     "ageLimit": 18,
